@@ -16,7 +16,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: `/${AppPages.Home}`,
+    redirectTo: `/${AppPages.Home}/0`,
     pathMatch: 'full',
   },
   // wildcard route -> (path: '**') is at the baseRoutesFactory ↓↓↓
